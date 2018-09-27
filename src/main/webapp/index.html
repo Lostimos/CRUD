@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Servlet CRUD</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Grupo Jueves</h1>
+        <h1>PR16011</h1>
+        <h1>CRUD</h1>
+        
+        <form method="POST" action="ServletCRUD">
+            ID Tipo Parte:  <input type="text" name="texto1"><br />
+            Nombre:<input type="text" name="texto2"><br />
+            Activo<input type="text" name="texto3"><br />
+            Observaciones<input type="text" name="texto4"><br /><br>
+            <input type="submit" name="btncrear" value="Crear"> <input type="submit" name="btnActualizar" value="Actualizar">
+            <input type="submit" name="btndelete" value="Eliminar"> <input type="submit" name="btnmostrar" value="Mostrar">
+            <br><br>
+            <h2>Buscar por ID</h2> <br>
+        
+        ID Tipo Parte:<input type="text" name="textobuscar"> <input type="submit" name="btnbuscar" value="Buscar">
+         <br>
+            <h2>Buscar por Rango:</h2> <br>
+            inicio:<input type="text" name="txtinicio"> final:<input type="text" name="txtfinal"> <input type="submit" name="btnrango" value="Buscar">
+        </form>
+    </body>
+</html>
